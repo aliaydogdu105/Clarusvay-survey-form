@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="result.html" />
+    <title>Clarusvay</title>
+  </head>
+  <body>
+      <form action="result.html" method="get">
+    <hr />
+    <h1>Clarusway Survey Form</h1>
+    <h3>Thank you for taking the time to help us improve the platform</h3>
+    <label for="name">Name</label><br />
+    <input
+      type="text"
+      id="name"
+      name="Name"
+      placeholder="Enter your name"
+    /><br />
+
+    <label for="surname">Surname</label><br />
+    <input
+      type="text"
+      id="surname"
+      name="Surname"
+      placeholder="Enter your surname"
+    /><br />
+
+    <label for="email">Email</label><br />
+    <input
+      type="email"
+      id="email"
+      name="Email"
+      placeholder="user@clarusvay.com"
+    />
+
+    <h3>Which option best describes your current role?</h3>
+
+    <select name="Role" id="roles" size="1">
+      <option value="Role">Select current role</option>
+      <option value="Role">Student</option>
+      <option value="Role">Instructure</option>
+    </select>
+
+    <h3>Would you recommend Clarusway to a friend?</h3>
+    <div>
+      <input type="radio" id="y" name="Answer" value="yes" />
+      <label for="y">Definetely, Yes</label>
+      <br />
+      <input type="radio" id="maybe" name="Answer" value="maybe" />
+      <label for="maybe">Maybe</label>
+      <br />
+      <input type="radio" name="Answer" id="not-sure" value="not sure" />
+      <label for="not-sure">Not sure</label>
+      <br />
+      <input type="radio" name="Answer" id="no" value="no" />
+      <label for="no">Defientely, No</label>
+    </div>
+
+    <h3>What is your favorite feature of Clarusway?</h3>
+
+    <select name="Role" id="roles" size="1">
+      <option value="not-selected">Select an option</option>
+      <option value="mentor">Mentor</option>
+      <option value="cms">Cms</option>
+    </select>
+
+    <h3>What would you like to see improved?(Check all that apply)</h3>
+    <input type="checkbox" id="front" name="Selection" value="Front-end" />
+    <label for="front">Front-end Project</label>
+    <br />
+    <input type="checkbox" id="back" name="Selection" value="Back-end" />
+    <label for="back">Back-end Project</label>
+    <br />
+    <input type="checkbox" id="data" name="Selection" value="Data Science" />
+    <label for="data">Data Science</label>
+    <br />
+    <input
+      type="checkbox"
+      id="addition"
+      name="Selection"
+      value="Additional Courses"
+    />
+    <label for="addition">Additional Courses</label>
+
+    <h3>Any comment or suggestions</h3>
+    <textarea
+      placeholder="Enter your comment here...thanks for your suggestions"
+      name="comment"
+      id="comment"
+      cols="30"
+      rows="10"
+      style="resize: none;"
+      ></textarea>
+    <br />  
+     <input type="submit" />
+    </form>
+    </body>
+</html>
+
+    
+
+   
